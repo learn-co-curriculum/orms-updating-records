@@ -165,7 +165,7 @@ This code is almost exactly the same as the code we used to update the album of
 the first song. The only difference is in the particular attribute we wanted to
 update. In the first case, we were updating the album. In this case, we updated
 the name. Repetitious code has a smell. Let's extract this functionality of
-updating a record into an method, `#update`.
+updating a record into a method, `#update`.
 
 ### The `#update` Method
 
